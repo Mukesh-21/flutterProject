@@ -1,23 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Home_Page.dart';
 
-void main(){
+void main() {
   runApp(MyFirstApp());
 }
 
 class MyFirstApp extends StatelessWidget {
-  const MyFirstApp({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home :Material(
-      child:Center(child:Container(child: Text("Hello Flutter"),
-      
-      )
-      ),
-      color: Colors.blue,
-      ),
-      
+      home: HomPage()
     );
   }
 }
