@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/drawer.dart';
+
 class HomPage extends StatelessWidget {
   var days = 399;
   var name = "Mukesh";
@@ -16,7 +18,7 @@ class HomPage extends StatelessWidget {
         height: 100,
         width: 200,
       )),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }

@@ -21,7 +21,7 @@ class MyFirstApp extends StatelessWidget {
         // primaryTextTheme: GoogleFonts.latoTextTheme()
       ),
       darkTheme: ThemeData(brightness: Brightness.dark),
-      // initialRoute: "/",
+      initialRoute: RoutesToApp.homeRoutes,
       routes: {
         "/": (context) => LoginPage(),
         RoutesToApp.homeRoutes: (context) => HomPage(),
