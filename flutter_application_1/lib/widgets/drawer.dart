@@ -20,15 +20,66 @@ class MyDrawer extends StatelessWidget {
                 child: UserAccountsDrawerHeader(
                     accountName: Text(
                       "Mukesh Pandit",
+                      style: TextStyle(fontSize: 20),
                     ),
                     accountEmail: Text("mukeshpandit219@gmail.com"),
                     currentAccountPicture: CircleAvatar(
                       backgroundImage: AssetImage(
                         "allassets/images/customer.jpg",
                       ),
-                    )
-                    )
-                    )
+                    ))),
+            ListTile(
+              leading: Icon(
+                CupertinoIcons.home,
+                color: Colors.white,
+              ),
+              title: Text(
+                "Home",
+                style: TextStyle(
+                  fontSize: 17,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+            ListTile(
+              leading: Icon(
+                CupertinoIcons.profile_circled,
+                color: Colors.white,
+              ),
+              title: Text(
+                "Profile",
+                style: TextStyle(
+                  fontSize: 17,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+            ListTile(
+              leading: Icon(
+                CupertinoIcons.ant_circle,
+                color: Colors.white,
+              ),
+              title: Text(
+                "About",
+                style: TextStyle(
+                  fontSize: 17,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+            ListTile(
+              leading: Icon(
+                CupertinoIcons.settings,
+                color: Colors.white,
+              ),
+              title: Text(
+                "Settings",
+                style: TextStyle(
+                  fontSize: 17,
+                  color: Colors.white,
+                ),
+              ),
+            ),
           ],
         ),
       ),

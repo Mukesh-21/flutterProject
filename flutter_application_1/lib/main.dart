@@ -14,6 +14,7 @@ class MyFirstApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       // home: HomPage(),
+      debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
