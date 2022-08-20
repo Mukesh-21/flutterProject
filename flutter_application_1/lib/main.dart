@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_application_1/Pages/Home_Page.dart';
 import 'package:flutter_application_1/Pages/login_page.dart';
 import 'package:loading_animations/loading_animations.dart';
+import 'package:get/get.dart';
 
 void main() {
   runApp(MyFirstApp());
@@ -12,7 +13,7 @@ void main() {
 class MyFirstApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       // home: HomPage(),
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,

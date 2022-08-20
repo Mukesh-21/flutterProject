@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/util/dimensions.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class BigText extends StatelessWidget {
@@ -22,7 +23,7 @@ class BigText extends StatelessWidget {
      text ,
      overflow: Overflow,
      style: TextStyle(
-      fontSize: Size,
+      fontSize: Size == 0?Dimensions.font20:Size,
       color: color ,
       fontFamily: GoogleFonts.lato().fontFamily,
       fontWeight: FontWeight.bold,
