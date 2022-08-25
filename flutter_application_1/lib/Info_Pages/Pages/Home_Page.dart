@@ -3,7 +3,6 @@ import 'package:flutter_application_1/util/dimensions.dart';
 import 'package:flutter_application_1/widgets/big_text.dart';
 import 'package:flutter_application_1/widgets/small_text.dart';
 
-import '../widgets/drawer.dart';
 import 'Page_bottom.dart';
 // import 'dart:html';
 
@@ -31,15 +30,16 @@ class HomPage extends StatelessWidget {
       )),
        drawer: MyDrawer(),
     );*/
-   
+
     return Scaffold(
-      body: Column(
-        children: [
-          //Showing Head
+      body: Column(children: [
+        //Showing Head
         Container(
           child: Container(
-            margin: EdgeInsets.only(top: Dimensions.height53, bottom: Dimensions.height15),
-            padding: EdgeInsets.only(left: Dimensions.width20, right: Dimensions.width20),
+            margin: EdgeInsets.only(
+                top: Dimensions.height53, bottom: Dimensions.height15),
+            padding: EdgeInsets.only(
+                left: Dimensions.width20, right: Dimensions.width20),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -75,7 +75,7 @@ class HomPage extends StatelessWidget {
           ),
         ),
         // Showing Body
-        PageMiddleBottom(),
+        Expanded(child: SingleChildScrollView(child: PageMiddleBottom())),
       ]),
     );
   }

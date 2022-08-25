@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:loading_animations/loading_animations.dart';
 
-import '../util/routes.dart';
+import '../../util/routes.dart';
+
 
 class LoginPage extends StatefulWidget {
   @override
@@ -136,7 +137,7 @@ class _LoginPageState extends State<LoginPage> {
               SizedBox(
                 height: 20,
               ),
-              Text("Didn't Have Accout?"),
+              Text("Didn't Have Accout? Sign Up ."),
             ],
           ),
         ),
