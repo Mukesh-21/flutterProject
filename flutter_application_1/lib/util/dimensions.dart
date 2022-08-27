@@ -11,6 +11,7 @@ class Dimensions {
   static double height15 = ScreenHeight/(ScreenHeight/15) ;
   static double height20 = ScreenHeight/(ScreenHeight/20) ;
   static double height25 = ScreenHeight/(ScreenHeight/25) ;
+  static double height30 = ScreenHeight/(ScreenHeight/30) ;
   static double height45 = ScreenHeight/(ScreenHeight/45) ;
   static double height47 = ScreenHeight/(ScreenHeight/47) ;
   static double height50 = ScreenHeight/(ScreenHeight/50) ;
@@ -37,5 +38,5 @@ class Dimensions {
   static double ListViewTextSize = ScreenWidth/(ScreenWidth/85);
 
   //popularitemimage
-  static double PopularItemImage = ScreenHeight/(ScreenHeight/350);
+  static double PopularItemImage = ScreenHeight/(ScreenHeight/375);
 }
